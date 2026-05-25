@@ -149,7 +149,7 @@ def fetch_and_download_tiktok(query):
 # Main Script
 if __name__ == "__main__":
     query = "Toni Kroos interviews"
-    api_key = "AIzaSyBNG58lRR0ek52R6mvyh_Kn5LzHIybx2gw"  # Replace with your valid YouTube API key
+    api_key = "API_KEY"  # Replace with your valid YouTube API key
 
     print("Fetching and downloading YouTube videos...")
     fetch_and_download_youtube(api_key, query)
